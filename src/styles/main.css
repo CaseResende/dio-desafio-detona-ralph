@@ -1,47 +1,56 @@
+/* Ajuste de posicionamento dos blocos, imagem de fundo e altura da tela */
 .container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background-image: url("../images/wall.png");
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/wall.png");
+  height: 100vh;
 }
 
+/* Ajuste da área do menu superior, alinhamento e espaçamento de ítens, cor de fundo e borda */
 .menu {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-    height: 90px;
-    width: 100%;
-    background-color: #000000;
-    color: #ffffff;
-    border-bottom: 5px solid #ffd700;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  border-bottom: 5px solid #ffd700;
 }
+
+/* Ajuste de posicionamento dos elementos da área do painel */
 .panel {
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+/* Ajuste de imagem e cor de fundo, bordas e tamanho das janelas */
 .square {
-    height: 150px;
-    width: 150px;
-    border: 1px solid #000000;
-    background-color: #1aeaa5;
+  height: 150px;
+  width: 150px;
+  border: 1px solid #000000;
+  background-color: #98caff;
+  background-image: url("../images/window.png");
 }
 
+/* Ajuste de imagem de fundo do inimigo */
 .enemy {
-    background-image: url("../images/ralph.png");
-    background-size: cover;
+  background-image: url("../images/ralph.png");
+  background-size: cover;
 }
 
+/* Ajuste de posicionamento de elementos do menu de vidas */
 .menu-lives {
-    display:flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+/* Ajuste de espaçamento entre mostradores do menu */
 /* Definindo margem apenas do segundo filho h2 das classes */
 .menu-time h2:nth-child(2),
 .menu-score h2:nth-child(2) {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
