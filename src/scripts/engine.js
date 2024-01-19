@@ -89,6 +89,7 @@ function countDown() {
 
     /* Anuncia o fim do jogo */
     alert("Game Over! O seu resultado foi: " + state.values.result);
+    playSound("win");
   }
 }
 
